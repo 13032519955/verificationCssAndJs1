@@ -9,12 +9,10 @@
 </head>
 <body>
     <script>
-      
-        alert(1);
-        let scriptDom = document.createElement("script");
-        scriptDom.src = "https://raw.githubusercontent.com/13032519955/verificationCssAndJs1/master/script.js";
-        document.body.appendChild(scriptDom)
-       
+        window.onload = function(){
+            //外链因为MIME/plan返回类型的问题不能解析...那直接写html里不就好了...
+            alert("德玛西亚")
+        }    
     </script>
 </body>
 </html>
